@@ -1,3 +1,22 @@
+# My Projects
+## FindMyPet 
+Reunite lost pets with their owners
+1st in Category Award, Synopsys Santa Clara Science and Technology Championship, 2018
+
+## unet_polyp
+Realtime Segmentation of Colon Polyps during Colonoscopy
+1st in Category Award, Synopsys Santa Clara Science and Technology Championship, 2019
+
+## medr
+Automatic Recognition of Responses in Patient Surveys
+Submission to Stanford School of Medicine, 2019
+
+## chessvis
+Visualization of a player's control of the chess bloard
+## nsdapoints
+Calculating NSDA points for all team members
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/aalokpatwa/aalokpatwa.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
@@ -26,12 +45,3 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aalokpatwa/aalokpatwa.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
