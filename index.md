@@ -11,7 +11,7 @@
 - [findourpets.com](https://findourpets.com) web service to be launched all across the nation
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2018
 - [Synopsys Presentation](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
-- [Github Repo and Abstract](https://github.com/aalokpatwa/findmypet)
+- [Github Repo and Abstract](https://github.com/aalokpatwa/findmypet) (Private)
 
 ## MedR: Automatic Recognition of Patient Surveys
 - Package Submitted to Stanford Rubin Lab, Summer 2019
