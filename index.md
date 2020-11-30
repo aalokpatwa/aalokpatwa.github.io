@@ -14,7 +14,9 @@
 - [Github Repo and Abstract](https://github.com/aalokpatwa/findmypet)
 
 ## MedR: Automatic Recognition of Patient Surveys
-- Submission to Stanford Rubin Lab, Summer 2019
+- Package Submitted to Stanford Rubin Lab, Summer 2019
+- [Stanford Presentation](https://drive.google.com/file/d/1WFgIXGeg33LhcV8qsW5MKE0IHw4Mk0zv/view?usp=sharing)
+- [User Guide](https://github.com/aalokpatwa/medr/blob/master/medr_documentation.pdf)
 - [Github Repo](https://github.com/aalokpatwa/medr)
 
 ## ChessVis: Visualization of a player's control of the chess bloard
