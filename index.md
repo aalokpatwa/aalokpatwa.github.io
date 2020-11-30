@@ -19,7 +19,7 @@
 - [User Guide](https://github.com/aalokpatwa/medr/blob/master/medr_documentation.pdf)
 - [Github Repo](https://github.com/aalokpatwa/medr)
 
-## ChessVis: Visualization of a player's control of the chess bloard
+## ChessVis: Visualization of a player's control of the chess board
 - [Github Repo](https://github.com/aalokpatwa/chessvis)
 
 ## NSDA points: Calculating NSDA points for all team members
