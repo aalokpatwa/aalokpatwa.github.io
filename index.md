@@ -1,9 +1,9 @@
 # My Projects
 
 ## TNBC Recurrence/Survival Prediction
--[Synopsys Presentation](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
--Regeneron ISEF Finalist, 2020
--Grand Prize Winner, Synopsys Santa Clara Science and Technology Championship, Spring 2020
+- [Synopsys Presentation](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
+- Regeneron ISEF Finalist, 2020
+- Grand Prize Winner, Synopsys Santa Clara Science and Technology Championship, Spring 2020
 
 ## UnetPolyp: Realtime Segmentation of Colon Polyps during Colonoscopy
 - [OReilly Tensorflow 2019 Presentation Video](https://www.youtube.com/watch?v=W7f18NMAy3g)
