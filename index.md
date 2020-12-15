@@ -1,30 +1,30 @@
 # My Projects
 
 ## TNBC Recurrence/Survival Prediction
-- [Synopsys Presentation](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
+- [Abstract](https://github.com/aalokpatwa/tnbc_prediction/blob/main/README.md)
+- [Presentation](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
 - Regeneron ISEF Finalist, 2020
 - Grand Prize Winner, Synopsys Santa Clara Science and Technology Championship, Spring 2020
-- [Abstract](https://github.com/aalokpatwa/tnbc_prediction/blob/main/README.md)
 
-## UnetPolyp: Real-time Segmentation of Colon Polyps during Colonoscopy
+## Real-time Segmentation of Colon Polyps during Colonoscopy
+- [Abstract and code](https://github.com/aalokpatwa/unet_polyp)
 - [OReilly Tensorflow 2019 Presentation Video](https://www.youtube.com/watch?v=W7f18NMAy3g)
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2019
-- [Github Repo and Abstract](https://github.com/aalokpatwa/unet_polyp)
 
 ## FindMyPet: Reunite lost pets with their owners
+- [Presentation](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
+- [Abstract](https://github.com/aalokpatwa/findmypet)
 - [findourpets.com](https://findourpets.com) web service to be launched all across the nation
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2018
-- [Synopsys Presentation](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
-- [Abstract](https://github.com/aalokpatwa/findmypet)
 
 ## MedR: Automatic Recognition of Patient Surveys
-- Package Submitted to Stanford Rubin Lab, Summer 2019
-- [Stanford Presentation](https://drive.google.com/file/d/1WFgIXGeg33LhcV8qsW5MKE0IHw4Mk0zv/view?usp=sharing)
-- [User Guide](https://github.com/aalokpatwa/medr/blob/master/medr_documentation.pdf)
-- [Github Repo](https://github.com/aalokpatwa/medr)
+- [code](https://github.com/aalokpatwa/medr)
+- [Presentation](https://drive.google.com/file/d/1WFgIXGeg33LhcV8qsW5MKE0IHw4Mk0zv/view?usp=sharing)
+- Package Submitted to Rubin Lab, Stanford University, Summer 2019
+- [Package User Guide](https://github.com/aalokpatwa/medr/blob/master/medr_documentation.pdf)
 
 ## ChessVis: Visualization of a player's control of the chess board
-- [Github Repo](https://github.com/aalokpatwa/chessvis)
+- [code](https://github.com/aalokpatwa/chessvis)
 
 ## NSDA points: Calculating NSDA points for all team members
-- [Github Repo](https://github.com/aalokpatwa/nsda_points)
+- [code](https://github.com/aalokpatwa/nsda_points)
