@@ -4,8 +4,9 @@
 - [Synopsys Presentation](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
 - Regeneron ISEF Finalist, 2020
 - Grand Prize Winner, Synopsys Santa Clara Science and Technology Championship, Spring 2020
+- [Abstract](https://github.com/aalokpatwa/tnbc_prediction/blob/main/README.md)
 
-## UnetPolyp: Realtime Segmentation of Colon Polyps during Colonoscopy
+## UnetPolyp: Real-time Segmentation of Colon Polyps during Colonoscopy
 - [OReilly Tensorflow 2019 Presentation Video](https://www.youtube.com/watch?v=W7f18NMAy3g)
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2019
 - [Github Repo and Abstract](https://github.com/aalokpatwa/unet_polyp)
@@ -14,7 +15,7 @@
 - [findourpets.com](https://findourpets.com) web service to be launched all across the nation
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2018
 - [Synopsys Presentation](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
-- [Github Repo and Abstract](https://github.com/aalokpatwa/findmypet) (Private)
+- [Abstract](https://github.com/aalokpatwa/findmypet)
 
 ## MedR: Automatic Recognition of Patient Surveys
 - Package Submitted to Stanford Rubin Lab, Summer 2019
