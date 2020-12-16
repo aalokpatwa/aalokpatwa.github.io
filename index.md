@@ -6,7 +6,7 @@
 - Regeneron ISEF Finalist, 2020
 - Grand Prize Winner, Synopsys Santa Clara Science and Technology Championship, Spring 2020
 
-## Real-time Segmentation of Colon Polyps during Colonoscopy
+## AI-Driven Real-time Detection of Colon Polyps during Colonoscopy
 - [Abstract and code](https://github.com/aalokpatwa/unet_polyp)
 - [OReilly Tensorflow 2019 Presentation Video](https://www.youtube.com/watch?v=W7f18NMAy3g)
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2019
