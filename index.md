@@ -11,9 +11,9 @@
 - [OReilly Tensorflow 2019 Presentation Video](https://www.youtube.com/watch?v=W7f18NMAy3g)
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2019
 
-## FindMyPet: Reuniting lost pets with their owners using deep learning.
-- [Presentation](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
+## FindOurPets: Reuniting lost pets with their owners using deep learning.
 - [Abstract](https://github.com/aalokpatwa/findmypet)
+- [Presentation](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
 - [findourpets.com](https://findourpets.com) web service to be launched all across the nation
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2018
 
