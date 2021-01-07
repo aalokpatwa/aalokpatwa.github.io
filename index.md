@@ -3,6 +3,7 @@
 ## Computational Pipeline to Predict Recurrence and Survival Risks of Triple-negative Breast Cancer Patients
 - [Check out the abstract as submitted to the Synopsys Championship!](https://github.com/aalokpatwa/tnbc_prediction/blob/main/README.md)
 - [Synopsys Presentation](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
+- [Code] (https://github.com/aalokpatwa/rasp-mibi/)
 - Regeneron ISEF Finalist, 2020
 - Grand Prize Winner, Synopsys Santa Clara Science and Technology Championship, Spring 2020
 
