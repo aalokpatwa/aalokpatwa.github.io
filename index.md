@@ -13,19 +13,19 @@
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2019
 
 ## FindOurPets: Reuniting lost pets with their owners using deep learning.
-- [The **abstract**](https://github.com/aalokpatwa/findmypet)
-- [The **presentation**](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
-- [findourpets.com](https://findourpets.com) web service to be launched all across the nation
+- [The **abstract!**](https://github.com/aalokpatwa/findmypet)
+- [The **presentation!**](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
+- [Visit the service's website: **findourpets.com**!](https://findourpets.com)
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2018
 
 ## MedR: Deep Learning-based Recognition of Patient Surveys
-- [The **code**](https://github.com/aalokpatwa/medr)
-- [The **presentation**](https://drive.google.com/file/d/1WFgIXGeg33LhcV8qsW5MKE0IHw4Mk0zv/view?usp=sharing)
+- [The **code!**](https://github.com/aalokpatwa/medr)
+- [The **presentation!**](https://drive.google.com/file/d/1WFgIXGeg33LhcV8qsW5MKE0IHw4Mk0zv/view?usp=sharing)
 - Package Submitted to Rubin Lab, Stanford University, Summer 2019
 - [Package User Guide](https://github.com/aalokpatwa/medr/blob/master/medr_documentation.pdf)
 
 ## ChessVis: Visualization of a player's control of the chess board
-- [Check out the **code and demo**!](https://github.com/aalokpatwa/chessvis)
+- [Check out the **code and demo!**](https://github.com/aalokpatwa/chessvis)
 
 ## NSDA points: Calculating NSDA points across different events
 - [Check out the **code!**](https://github.com/aalokpatwa/nsda_points)
