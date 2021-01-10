@@ -4,6 +4,7 @@
 - [Check out my **paper!**](https://www.biorxiv.org/content/10.1101/2021.01.06.425496v1)
 - [Look over my **presentation!**](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
 - [Try out the **code!**](https://github.com/aalokpatwa/rasp-mibi/)
+- Regeneron STS Scholar (top 300), 2021
 - Regeneron ISEF Finalist, 2020
 - Grand Prize Winner, Synopsys Santa Clara Science and Technology Championship, Spring 2020
 
