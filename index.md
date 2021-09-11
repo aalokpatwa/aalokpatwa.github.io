@@ -1,4 +1,4 @@
-# Aalok Patwa
+# My Projects
 
 ## Computational Pipeline to Predict Recurrence and Survival Risks of Triple-negative Breast Cancer Patients
 - [Check out the **paper!**](https://www.biorxiv.org/content/10.1101/2021.01.06.425496v1)
