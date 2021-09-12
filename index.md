@@ -1,7 +1,7 @@
 # My Projects
 
 ## Computational Pipeline to Predict Recurrence and Survival Risks of Triple-negative Breast Cancer Patients
-- [Check out the **paper!**](https://www.biorxiv.org/content/10.1101/2021.01.06.425496v1)
+- [Check out the **paper!**](https://www.nature.com/articles/s42003-021-02361-1)
 - [Look over my **presentation!**](https://drive.google.com/file/d/1pkDVnwaCZYQXUfTnp7bCK-hp_xihX_li/view?usp=sharing)
 - [Try out the **code!**](https://github.com/aalokpatwa/rasp-mibi/)
 - Regeneron STS Scholar (top 300), 2021
