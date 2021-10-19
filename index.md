@@ -15,7 +15,7 @@
 ## FindOurPets: Reuniting lost pets with their owners using deep learning.
 - [The **abstract!**](https://github.com/aalokpatwa/findmypet)
 - [The **presentation!**](https://drive.google.com/file/d/14SAaoM_4AVqts7BL6isz40XVICWmeMvQ/view?usp=sharing)
-- [Visit the service's website: **findourpets.com**!](https://findourpets.com)
+- [Visit the service's website: **lostpets.us**!](https://lostpets.us)
 - 1st in Category Award, Synopsys Santa Clara Science and Technology Championship, Spring 2018
 
 ## MedR: Deep Learning-based Recognition of Patient Surveys
