@@ -7,14 +7,17 @@ import HomePage from "./pages/HomePage"
 
 function App() {
   return (
-    <div class="bg-stone-800">
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </BrowserRouter>
+    <div class="min-h-screen bg-stone-800">
+      <header class="h-8 bg-stone-800">
+
+      </header>
+      <BrowserRouter>
+        <HomePage />
+        {/* <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes> */}
+      </BrowserRouter>
     </div>
 
   );
