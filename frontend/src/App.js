@@ -7,8 +7,8 @@ import HomePage from "./pages/HomePage"
 
 function App() {
   return (
-    <div class="min-h-screen bg-stone-800">
-      <header class="h-8 bg-stone-800">
+    <div class="min-h-screen bg-blue-50">
+      <header class="h-8 bg-blue-50">
 
       </header>
       <BrowserRouter>

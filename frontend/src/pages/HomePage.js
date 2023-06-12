@@ -4,15 +4,15 @@ import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
-        <body class="min-h-screen bg-stone-800">
+        <body class="min-h-screen bg-blue-50">
             <div class="my-8">
                 <div class="text-center justify-center">
-                    <h2 class="mx-32 mt-16 mb-8 font-medium text-4xl text-white">
+                    <h2 class="mx-32 mt-16 mb-8 font-medium text-4xl text-black">
                         About
                     </h2>
                 </div>
                 
-                <div class="mx-auto shadow-xl rounded-xl w-9/12 bg-stone-200">
+                <div class="mx-auto shadow-md rounded-xl w-9/12 bg-white">
                     <div class="mx-8 w-9/12 my-4">
                         <p class="text-xl py-4">
                             Hi, I'm Aalok!
@@ -20,14 +20,16 @@ export default function HomePage() {
                     </div>
                     <div class="mx-8">
                         <p class="pb-8">
-                            I study Computer Science and Business at the University of Pennsylvania.
+                            I'm pursuing a dual-degree in Computer Science and Business at the University of Pennsylvania. I have an academic background in machine learning, statistics, algorithms, databases, and systems, as well as finance, management, and marketing.
                             <br/>
                             <br/>
-                            I'm really passionate about AI. I worked with Stanford's Rubin Lab on computer vision for medical imaging and Penn's GRASP Lab on AutoML frameworks. 
+                            I've been really passionate about AI since high school. I worked with Stanford's Rubin Lab on computer vision for medical imaging and Penn's GRASP Lab on AutoML frameworks. 
+                            I've also become enamored by distributed systems after taking <a href="https://cis5550.seas.upenn.edu/"><u>CIS 5550</u></a> at school.
                             <br/>
                             <br/>
-                            I've also become enamored by distributed systems after taking <a href="https://cis5550.seas.upenn.edu/"><u>CIS 5550</u></a> at school, 
-                            and now spend a lot of time thinking about the <a href="https://en.wikipedia.org/wiki/CAP_theorem"><u>CAP Theorem</u></a>.
+                            My work experience spans seed-stage startups to big tech. I built time series models at <a href="https://outoftheblue.ai/"><u>Out of the Blue</u></a> the summer after high school. 
+                            After freshman year, I worked at <a href="https://athelas.com"><u>Athelas</u></a> building new customer-facing apps for their budding revenue cycle management business. 
+                            This summer, I'm working at <a href="https://aws.amazon.com/"><u>Amazon Web Services</u></a> in Seattle. At all three places, I've had the opportunity to own important OKRs and decide the vision for my projects.
                             <br/>
                             <br/>
                             On campus, I TA CIS 3200, our Intermediate Algorithms course (think dynamic programming, network flow, approximation algorithms), 
@@ -35,13 +37,13 @@ export default function HomePage() {
                             and research technology trends through <a href="https://collegiate.vc/penn"><u>Penn Undergraduate Capital Partners</u></a>.
                             <br/>
                             <br/>
-                            Feel free to check out my Projects to see what I've built.
+                            Check out my Projects to see what I've built!
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="mx-auto w-9/12 bg-stone-800 justify-center text-center">
-                <h2 class="mx-32 mt-16 mb-8 font-medium text-4xl text-white">
+            <div class="mx-auto w-9/12 bg-blue-50 justify-center text-center">
+                <h2 class="mx-32 mt-16 mb-8 font-medium text-4xl text-black">
                     Projects
                 </h2>
             </div>
