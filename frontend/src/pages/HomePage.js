@@ -20,19 +20,19 @@ export default function HomePage() {
                     </div>
                     <div class="mx-8">
                         <p class="pb-8">
-                            I'm pursuing a dual-degree in Computer Science and Business at the University of Pennsylvania. I have an academic background in machine learning, statistics, algorithms, databases, and systems, as well as finance, management, and marketing.
+                            I'm pursuing a dual-degree in Computer Science and Business at the University of Pennsylvania. I have an academic and professional background in machine learning, statistics, algorithms, databases, and systems, as well as finance, management, and marketing.
                             <br/>
                             <br/>
                             I've been really passionate about AI since high school. I worked with Stanford's Rubin Lab on computer vision for medical imaging and Penn's GRASP Lab on AutoML frameworks. 
                             I've also become enamored by distributed systems after taking <a href="https://cis5550.seas.upenn.edu/"><u>CIS 5550</u></a> at school.
                             <br/>
                             <br/>
-                            My work experience spans seed-stage startups to big tech. I built time series models at <a href="https://outoftheblue.ai/"><u>Out of the Blue</u></a> the summer after high school. 
+                            My work experience spans seed-stage startups to big tech.
                             After freshman year, I worked at <a href="https://athelas.com"><u>Athelas</u></a> building new customer-facing apps for their budding revenue cycle management business. 
-                            This summer, I'm working at <a href="https://aws.amazon.com/"><u>Amazon Web Services</u></a> in Seattle. At all three places, I've had the opportunity to own important OKRs and decide the vision for my projects.
+                            This summer, I'm working at <a href="https://aws.amazon.com/"><u>Amazon Web Services</u></a> in Seattle. At both places, I've had the opportunity to own important OKRs and decide the vision for my projects.
                             <br/>
                             <br/>
-                            On campus, I TA CIS 3200, our Intermediate Algorithms course (think dynamic programming, network flow, approximation algorithms), 
+                            On campus, I TA CIS 3200, our Intermediate Algorithms course, 
                             do data science consulting for companies like Fox with <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/"><u>Wharton Analytics Fellows</u></a>, 
                             and research technology trends through <a href="https://collegiate.vc/penn"><u>Penn Undergraduate Capital Partners</u></a>.
                             <br/>
