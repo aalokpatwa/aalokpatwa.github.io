@@ -1,14 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import NavBar from "./components/NavBar"
-import Projects from "./pages/Projects"
-import Hobbies from "./pages/Hobbies"
 import HomePage from "./pages/HomePage"
 
 function App() {
   return (
-    <div class="min-h-screen bg-blue-50">
-      <header class="h-8 bg-blue-50">
+    <div class="min-h-screen bg-slate-100">
+      <header class="h-8 bg-slate-100">
 
       </header>
       <BrowserRouter>

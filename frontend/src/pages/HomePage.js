@@ -4,49 +4,51 @@ import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
-        <body class="min-h-screen bg-blue-50">
+        <body class="min-h-screen bg-slate-100">
             <div class="my-8">
                 <div class="text-center justify-center">
-                    <h2 class="mx-32 mt-16 mb-8 font-medium text-4xl text-black">
-                        About
+                    <h2 class="mt-8 sm:mt-16 mb-8 font-light font-bold text-4xl text-black font-sans font-bold">
+                        Aalok Patwa
                     </h2>
                 </div>
-                
                 <div class="mx-auto shadow-md rounded-xl w-9/12 bg-white">
-                    <div class="mx-8 w-9/12 my-4">
-                        <p class="text-xl py-4">
-                            Hi, I'm Aalok!
-                        </p>
-                    </div>
-                    <div class="mx-8">
-                        <p class="pb-8">
-                            I'm pursuing a dual-degree in Computer Science and Business at the University of Pennsylvania. I have an academic and professional background in machine learning, statistics, algorithms, databases, and systems, as well as finance, management, and marketing.
+                    <div class="mx-8 pt-8">
+                        <p class="pb-8 font-light">
+                            I'm pursuing a dual-degree in Computer Science and Business at the University of Pennsylvania. I have an academic and professional background in machine learning, statistics, algorithms, and systems, as well as finance, management, and marketing.
                             <br/>
                             <br/>
-                            I've been really passionate about AI since high school. I worked with Stanford's Rubin Lab on computer vision for medical imaging and Penn's GRASP Lab on AutoML frameworks. 
-                            I've also become enamored by distributed systems after taking <a href="https://cis5550.seas.upenn.edu/"><u>CIS 5550</u></a> at school.
+                            I'm really passionate about AI. I worked with Stanford's Rubin Lab on computer vision for medical imaging and Penn's GRASP Lab on AutoML frameworks. 
                             <br/>
                             <br/>
-                            My work experience spans seed-stage startups to big tech.
-                            After freshman year, I worked at <a href="https://athelas.com"><u>Athelas</u></a> building new customer-facing apps for their budding revenue cycle management business. 
-                            This summer, I'm working at <a href="https://aws.amazon.com/"><u>Amazon Web Services</u></a> in Seattle. At both places, I've had the opportunity to own important OKRs and decide the vision for my projects.
+                            In Summer 2023, I'm working at <a href="https://aws.amazon.com/"><u>Amazon Web Services</u></a> building automated ticket resolution systems.
                             <br/>
                             <br/>
-                            On campus, I TA CIS 3200, our Intermediate Algorithms course, 
+                            On campus, I TA CIS 5190, the graduate machine learning course,
                             do data science consulting for companies like Fox with <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/"><u>Wharton Analytics Fellows</u></a>, 
                             and research technology trends through <a href="https://collegiate.vc/penn"><u>Penn Undergraduate Capital Partners</u></a>.
-                            <br/>
-                            <br/>
-                            Check out my Projects to see what I've built!
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="mx-auto w-9/12 bg-blue-50 justify-center text-center">
-                <h2 class="mx-32 mt-16 mb-8 font-medium text-4xl text-black">
-                    Projects
-                </h2>
-            </div>
+            <div class="my-8">
+                <div class="justify-center text-center">
+                    <h2 class="mx-32 mt-16 mb-8 font-light font-bold text-4xl text-black">
+                        Projects
+                    </h2>
+                </div>
+                <ProjectBar 
+                link={"https://cambrianml.org"} 
+                title={"Cambrian: Copilot for AI Research"}
+                skills={["LLMs", "Web Development", "Next.js", "Postgres"]}>
+                <div>
+                    <p class="my-2">
+                        Designed and implemented the central hub for discovering, understanding, and discussing AI research.
+                    </p>
+                    <p class="my-2">
+                        Cambrian provides users with AI-powered search, an AI assistant to answer quesions about papers, and the ability to send papers to friends.
+                    </p>
+                </div>
+            </ProjectBar>
             <ProjectBar 
                 link={"https://www.nature.com/articles/s42003-021-02361-1"} 
                 title={"RASP-MIBI: Computational Pipeline to Predict Recurrence and Survival of Triple-negative Breast Cancer Patients"}
@@ -140,6 +142,9 @@ export default function HomePage() {
                     </p>
                 </div>
             </ProjectBar>
+            </div>
+            
+            
             <Footer />
         </body>
         
