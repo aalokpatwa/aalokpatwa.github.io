@@ -4,10 +4,10 @@ import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
-        <body class="min-h-screen bg-slate-100">
+        <body class="min-h-screen bg-numberphile-100">
             <div class="my-8">
                 <div class="text-center justify-center">
-                    <h2 class="mt-8 sm:mt-16 mb-8 font-light font-bold text-4xl text-black font-sans font-bold">
+                    <h2 class="mt-8 sm:mt-16 mb-8 text-4xl text-black font-sans font-light">
                         Aalok Patwa
                     </h2>
                 </div>
