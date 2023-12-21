@@ -4,7 +4,7 @@ import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
-        <body class="min-h-screen bg-numberphile-100">
+        <body class="min-h-screen bg-slate-200">
             <div class="my-8">
                 <div class="text-center justify-center">
                     <h2 class="mt-8 sm:mt-16 mb-8 text-4xl text-black font-sans font-light">
