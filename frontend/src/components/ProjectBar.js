@@ -11,7 +11,7 @@ export default function ProjectBar(props) {
                 </p>
                 {
                     props.skills.map((skill) => (
-                        <div class="inline-block shadow-xl rounded w-auto bg-emerald-200 mx-2">
+                        <div class="inline-block rounded w-auto border-solid bg-emerald-200 mx-2">
                             <p class="mx-3 font-light">
                                 {skill}
                             </p>
