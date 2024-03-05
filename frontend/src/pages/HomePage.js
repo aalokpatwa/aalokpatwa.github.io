@@ -4,32 +4,45 @@ import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
-        <body class="min-h-screen bg-slate-200">
-            <div class="my-8">
-                <div class="text-center justify-center">
-                    <h2 class="mt-8 sm:mt-16 mb-8 text-4xl text-black font-sans font-light">
+        <body class="min-h-screen bg-gray-50">
+            <div className="w-11/12 sm:w-10/12 mx-auto max-w-7xl">
+                <div class="text-center pb-8">
+                    <h2 class="pt-16 mb-4 pb-4 text-4xl text-black font-medium border-b-2 border-zinc-400">
                         Aalok Patwa
                     </h2>
+                    
+
                 </div>
-                <div class="mx-auto shadow-md rounded-xl w-9/12 bg-white">
-                    <div class="mx-8 pt-8">
-                        <p class="pb-8 font-light">
-                            I'm pursuing a dual-degree in Computer Science and Business at the University of Pennsylvania. I have an academic and professional background in machine learning, statistics, algorithms, and systems, as well as finance, management, and marketing.
-                            <br/>
-                            <br/>
-                            I'm most passionate about solving problems using AI and robust software. I enjoy speaking to users to understand their needs and architecting beautiful solutions to them.
-                            <br/>
-                            <br/>
-                            On campus, I TA CIS 5190, the graduate machine learning course,
-                            do data science consulting for companies like Fox with <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/"><u>Wharton Analytics Fellows</u></a>, 
-                            and research technology trends through <a href="https://collegiate.vc/penn"><u>Penn Undergraduate Capital Partners</u></a>. I am also a Venture Fellow for Pear VC.
-                        </p>
-                    </div>
+                <div class="rounded-lg m-2">
+                    <p className="font-light text-lg mb-8">
+                        I'm a student at the University of Pennsylvania, pursuing a dual degree in Computer Science from the Engineering school and Business from Wharton.
+                    </p>
+                    <p className="font-light text-lg mb-8">
+                        I'm most passionate about the applications of AI and big data systems. I love working across teams to deeply understand users, architect solutions, and iterate.
+                    </p>
+                    
+                    <p className="font-light text-lg mb-2">
+                        Previously, I interned at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-blue-600">Rubin Lab</a>, where I first-authored in <a href="/https://www.nature.com/articles/s42003-021-02361-1" className="text-blue-600">Nature</a> and became a Regeneron STS Scholar.
+                    </p>
+                    <p className="font-light text-lg mb-2">
+                        Last summer, I interned at AWS, where I used NLP algorithms with serverless compute to automate the ticket resolution flow for AWS Fargate.                        
+                    </p>
+                    <p className="font-light text-lg mb-8">
+                        In Summer 2022, I worked at Athelas to build fundamental APIs and onboarding flows for a budding revenue cycle management business. <br/>
+                    </p>
+                    
+                    <p className="font-light text-lg mb-8">
+                       On campus, I am a Teaching Assistant for CIS 5190, our graduate machine learning course. I also do data science consulting for companies like Fox with Wharton Analytics Fellows. Finally, I'm a Venture Fellow for Pear VC. 
+                    </p>
+                    <p>
+                    <a href="https://www.github.com/aalokpatwa" className="font-light text-xl text-blue-600 hover:text-emerald-500">Github</a>
+                    </p>
+                    <p><a href="https://www.linkedin.com/in/aalok-patwa" className="font-light text-xl text-blue-600 hover:text-emerald-500">Linkedin</a></p>
                 </div>
             </div>
-            <div class="my-8">
-                <div class="justify-center text-center">
-                    <h2 class="mx-32 mt-16 mb-8 font-light font-bold text-4xl text-black">
+            <div class="mt-8 w-11/12 sm:w-10/12 mx-auto max-w-7xl">
+                <div class="text-center pb-8">
+                    <h2 class="mt-8 pb-4 font-medium text-4xl text-black border-b-2 border-zinc-400">
                         Projects
                     </h2>
                 </div>
@@ -158,7 +171,6 @@ export default function HomePage() {
             </div>
             
             
-            <Footer />
         </body>
         
     );
