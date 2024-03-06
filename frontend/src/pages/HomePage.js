@@ -4,7 +4,7 @@ import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
-        <body class="min-h-screen bg-gray-50">
+        <body class="min-h-screen bg-stone-50">
             <div className="w-11/12 sm:w-10/12 mx-auto max-w-7xl">
                 <div class="text-center pb-8">
                     <h2 class="pt-16 mb-4 pb-4 text-4xl text-black font-medium border-b-2 border-zinc-400">
@@ -18,7 +18,7 @@ export default function HomePage() {
                         I'm a student at the University of Pennsylvania, pursuing a dual degree in Computer Science from the Engineering school and Business from Wharton.
                     </p>
                     <p className="font-light text-lg mb-8">
-                        I'm most passionate about the applications of AI and big data systems. I love working across teams to deeply understand users, architect solutions, and iterate.
+                        I'm a builder at heart. I enjoy working cross-functionally to understand users, engineer solutions, and iterate. I'm most passionate about the potential for AI and big data systems to automate away the tedious and give humans more time to make real impact.  
                     </p>
                     
                     <p className="font-light text-lg mb-2">
@@ -32,7 +32,7 @@ export default function HomePage() {
                     </p>
                     
                     <p className="font-light text-lg mb-8">
-                       On campus, I am a Teaching Assistant for CIS 5190, our graduate machine learning course. I also do data science consulting for companies like Fox with Wharton Analytics Fellows. Finally, I'm a Venture Fellow for Pear VC. 
+                       On campus, I am a Teaching Assistant for CIS 5190, our graduate machine learning course. I also do technical consulting for companies like Fox through <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/" className="text-blue-600">Wharton Analytics Fellows</a>. Finally, I'm a Venture Fellow for <a href="https://pear.vc/" className="text-blue-600">Pear VC</a>. 
                     </p>
                     <p>
                     <a href="https://www.github.com/aalokpatwa" className="font-light text-xl text-blue-600 hover:text-emerald-500">Github</a>
@@ -40,7 +40,7 @@ export default function HomePage() {
                     <p><a href="https://www.linkedin.com/in/aalok-patwa" className="font-light text-xl text-blue-600 hover:text-emerald-500">Linkedin</a></p>
                 </div>
             </div>
-            <div class="mt-8 w-11/12 sm:w-10/12 mx-auto max-w-7xl">
+            <div class="mt-8 w-11/12 sm:w-10/12 mx-auto max-w-7xl pb-8">
                 <div class="text-center pb-8">
                     <h2 class="mt-8 pb-4 font-medium text-4xl text-black border-b-2 border-zinc-400">
                         Projects
