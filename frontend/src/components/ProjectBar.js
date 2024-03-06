@@ -5,7 +5,7 @@ export default function ProjectBar(props) {
         <div class="mx-2 rounded-xl border border-zinc-400 mt-8">
             <div class="justify-center text-center my-4">
                 <p class="text-xl font-medium py-4 mx-8">
-                    <a href={props.link} class="hover:text-blue-600">
+                    <a href={props.link} class="hover:text-blue-600 hover:underline">
                         {props.title}
                     </a>
                 </p>

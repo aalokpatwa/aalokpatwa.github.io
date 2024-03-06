@@ -22,7 +22,7 @@ export default function HomePage() {
                     </p>
                     
                     <p className="font-light text-lg mb-2">
-                        Previously, I interned at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-blue-600">Rubin Lab</a>, where I first-authored in <a href="/https://www.nature.com/articles/s42003-021-02361-1" className="text-blue-600">Nature</a> and became a Regeneron STS Scholar.
+                        Previously, I interned at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-blue-600 hover:underline">Rubin Lab</a>, where I first-authored in <a href="/https://www.nature.com/articles/s42003-021-02361-1" className="text-blue-600 hover:underline">Nature</a> and became a Regeneron STS Scholar.
                     </p>
                     <p className="font-light text-lg mb-2">
                         Last summer, I interned at AWS, where I used NLP algorithms with serverless compute to automate the ticket resolution flow for AWS Fargate.                        
@@ -32,12 +32,12 @@ export default function HomePage() {
                     </p>
                     
                     <p className="font-light text-lg mb-8">
-                       On campus, I am a Teaching Assistant for CIS 5190, our graduate machine learning course. I also do technical consulting for companies like Fox through <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/" className="text-blue-600">Wharton Analytics Fellows</a>. Finally, I'm a Venture Fellow for <a href="https://pear.vc/" className="text-blue-600">Pear VC</a>. 
+                       On campus, I am a Teaching Assistant for CIS 5190, our graduate machine learning course. I also do technical consulting for companies like Fox through <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/" className="text-blue-600 hover:underline">Wharton Analytics Fellows</a>. Finally, I'm a Venture Fellow for <a href="https://pear.vc/" className="text-blue-600 hover:underline">Pear VC</a>. 
                     </p>
                     <p>
-                    <a href="https://www.github.com/aalokpatwa" className="font-light text-xl text-blue-600 hover:text-emerald-500">Github</a>
+                    <a href="https://www.github.com/aalokpatwa" className="font-light text-xl text-blue-600 hover:underline">Github</a>
                     </p>
-                    <p><a href="https://www.linkedin.com/in/aalok-patwa" className="font-light text-xl text-blue-600 hover:text-emerald-500">Linkedin</a></p>
+                    <p><a href="https://www.linkedin.com/in/aalok-patwa" className="font-light text-xl text-blue-600 hover:underline">Linkedin</a></p>
                 </div>
             </div>
             <div class="mt-8 w-11/12 sm:w-10/12 mx-auto max-w-7xl pb-8">
