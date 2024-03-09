@@ -5,45 +5,36 @@ import ProjectBar from "../components/ProjectBar"
 export default function HomePage() {
     return (
         <body class="min-h-screen bg-stone-50">
-            <div className="w-11/12 sm:w-10/12 mx-auto max-w-7xl">
-                <div class="text-center pb-8">
-                    <h2 class="pt-16 mb-4 pb-4 text-4xl text-black font-medium border-b-2 border-zinc-400">
+            <div className="w-11/12 sm:w-10/12 mx-auto">
+                <div class="text-center pb-4">
+                    <h2 class="pt-12 pb-2 text-4xl text-black font-medium border-b-2 border-zinc-400">
                         Aalok Patwa
                     </h2>
                     
 
                 </div>
-                <div class="rounded-lg m-2">
-                    <p className="font-light text-lg mb-8">
+                <div class="rounded-lg my-2">
+                    <p className="font-light text-md mb-4">
                         I'm a student at the University of Pennsylvania, pursuing a dual degree in Computer Science from the Engineering school and Business from Wharton.
                     </p>
-                    <p className="font-light text-lg mb-8">
-                        I'm a builder at heart. I enjoy working cross-functionally to understand users, engineer solutions, and iterate. I'm most passionate about the potential for AI and big data systems to automate away the tedious and give humans more time to make real impact.  
+                    <p className="font-light text-md mb-4">
+                        I'm a builder at heart. I enjoy working cross-functionally to understand users' problems and engineer solutions using cutting-edge technology. I'm most passionate about the potential for AI and big data systems to amplify the impact of humans and drive society forward.  
+                    </p>
+                    <p className="font-light text-md mb-4">
+                        Previously, I was a machine learning researcher at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-blue-600 font-medium hover:underline">Rubin Lab</a>, where I first-authored in <a href="/https://www.nature.com/articles/s42003-021-02361-1" className="text-blue-600 font-medium hover:underline">Nature</a> and became a <a href="https://www.societyforscience.org/regeneron-sts/2021-scholars/" className="text-blue-600 font-medium hover:underline">Regeneron STS Scholar</a>.
+                        In Summer 2023, I interned at AWS, where I used NLP algorithms with serverless compute to automate the ticket resolution flow for <a href="https://aws.amazon.com/fargate/" className="text-blue-600 font-medium hover:underline">AWS Fargate</a>.                        
+                        In Summer 2022, I worked at Athelas to build APIs and onboarding flows for a budding revenue cycle management business on Google Cloud.
                     </p>
                     
-                    <p className="font-light text-lg mb-2">
-                        Previously, I interned at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-blue-600 hover:underline">Rubin Lab</a>, where I first-authored in <a href="/https://www.nature.com/articles/s42003-021-02361-1" className="text-blue-600 hover:underline">Nature</a> and became a Regeneron STS Scholar.
+                    <p className="font-light text-md mb-2">
+                       On campus, I am a Teaching Assistant for CIS 5190, our graduate machine learning course. I also do ML consulting for companies like Fox through <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/" className="text-blue-600 font-medium hover:underline">Wharton Analytics Fellows</a>. Finally, I'm a Venture Fellow for <a href="https://pear.vc/" className="text-blue-600 font-medium hover:underline">Pear VC</a>. 
                     </p>
-                    <p className="font-light text-lg mb-2">
-                        Last summer, I interned at AWS, where I used NLP algorithms with serverless compute to automate the ticket resolution flow for AWS Fargate.                        
-                    </p>
-                    <p className="font-light text-lg mb-8">
-                        In Summer 2022, I worked at Athelas to build fundamental APIs and onboarding flows for a budding revenue cycle management business. <br/>
-                    </p>
-                    
-                    <p className="font-light text-lg mb-8">
-                       On campus, I am a Teaching Assistant for CIS 5190, our graduate machine learning course. I also do technical consulting for companies like Fox through <a href="https://analytics.wharton.upenn.edu/get-involved/students/student-analytics-fellows/" className="text-blue-600 hover:underline">Wharton Analytics Fellows</a>. Finally, I'm a Venture Fellow for <a href="https://pear.vc/" className="text-blue-600 hover:underline">Pear VC</a>. 
-                    </p>
-                    <p>
-                    <a href="https://www.github.com/aalokpatwa" className="font-light text-xl text-blue-600 hover:underline">Github</a>
-                    </p>
-                    <p><a href="https://www.linkedin.com/in/aalok-patwa" className="font-light text-xl text-blue-600 hover:underline">Linkedin</a></p>
                 </div>
             </div>
-            <div class="mt-8 w-11/12 sm:w-10/12 mx-auto max-w-7xl pb-8">
-                <div class="text-center pb-8">
-                    <h2 class="mt-8 pb-4 font-medium text-4xl text-black border-b-2 border-zinc-400">
-                        Projects
+            <div class="mt-4 w-11/12 sm:w-10/12 mx-auto pb-8">
+                <div class="text-center">
+                    <h2 class="mt-12 pb-2 w-fit mx-auto px-4 font-medium text-3xl text-black border-b-2 border-zinc-400">
+                        My Projects
                     </h2>
                 </div>
             <ProjectBar 
@@ -63,6 +54,21 @@ export default function HomePage() {
                 </div>
             </ProjectBar>
             <ProjectBar 
+                link={"https://github.com/aalokpatwa/rasp-mibi"} 
+                title={"RASP-MIBI: Computational Pipeline to Predict Recurrence and Survival of Triple-negative Breast Cancer Patients"}
+                skills={["Machine Learning", "Statistics", "Biomedical Imaging"]}>
+                <div>
+                    <p class="my-2">
+                    First-authored a <a href="https://www.nature.com/articles/s42003-021-02361-1" className="text-blue-600 font-medium hover:underline">paper</a> in <i>Nature Communications Biology</i> for building a pipeline for early detection of triple-negative breast cancer, the most aggressive breast-cancer subtype.
+                    </p>
+                    <p class="my-2">
+                    Devised an algorithm to approximate cell-to-cell protein interactions and use features downstream in machine learning models.
+                    </p>
+                    <p class="my-2">
+                    </p>
+                </div>
+            </ProjectBar>
+            <ProjectBar 
                 link={"https://cambrianml.org"} 
                 title={"Cambrian: Copilot for AI Research"}
                 skills={["LLMs", "Web Development", "Next.js", "Postgres"]}>
@@ -76,23 +82,7 @@ export default function HomePage() {
                 </div>
             </ProjectBar>
             <ProjectBar 
-                link={"https://www.nature.com/articles/s42003-021-02361-1"} 
-                title={"RASP-MIBI: Computational Pipeline to Predict Recurrence and Survival of Triple-negative Breast Cancer Patients"}
-                skills={["Machine Learning", "Statistics", "Biomedical Imaging"]}>
-                <div>
-                    <p class="my-2">
-                    First-authored a paper in <i>Nature Communications Biology</i> for building a pipeline for early detection of triple-negative breast cancer, the most aggressive breast-cancer subtype.
-                    </p>
-                    <p class="my-2">
-                    Devised an algorithm to approximate cell-to-cell protein interactions and use features downstream in machine learning models.
-                    </p>
-                    <p class="my-2">
-                    <a href="https://www.societyforscience.org/regeneron-sts/2021-scholars/"><u>Regeneron STS Scholar</u></a>, Regeneron ISEF Finalist, Synopsys Grand Prize Winner. Check out the <a href="https://github.com/aalokpatwa/rasp-mibi/"><u>code!</u></a>
-                    </p>
-                </div>
-            </ProjectBar>
-            <ProjectBar 
-                link={"https://github.com/aalokpatwa/ViT-CNN/blob/main/Writeup.pdf"} 
+                link={"https://github.com/aalokpatwa/ViT-CNN"} 
                 title={"ViT-CNN: Comparing Performance of Vision Transformers and CNNs on Fine-grained Classification"}
                 skills={["Deep Learning", "Computer Vision", "PyTorch", "Transformers"]}>
                 <div>
@@ -101,9 +91,6 @@ export default function HomePage() {
                     </p>
                     <p class="my-2">
                     Processed the dataset, ran training scripts, tuned models as necessary, and analyzed relative strengths and weaknesses.
-                    </p>
-                    <p class="my-2">
-                    Done for CIS 5190: Applied Machine Learning.
                     </p>
                 </div>
             </ProjectBar>
@@ -119,12 +106,13 @@ export default function HomePage() {
                     Iterated on model architecture, used elastic deformations for data augmentation, and optimized model size to achieve 17 FPS.
                     </p>
                     <p class="my-2">
-                    Presented at the TensorFlow World Conference. Check out the <a href="https://github.com/aalokpatwa/polyp_detection"><u>code!</u></a>
+                    Presented at the TensorFlow World Conference. Check out the <a href="https://github.com/aalokpatwa/polyp_detection" className="text-blue-600 font-medium hover:underline">code!</a>
                     </p>
                 </div>
             </ProjectBar>
+            
             <ProjectBar 
-                link={"https://www.google.com"} 
+                link={"https://docs.google.com/document/d/1Ir7APyUH82HtkU088IIXcCKYERjnpfaO95exGUM9_lY/edit?usp=sharing"} 
                 title={"The Empire Crawls Back: Distributed Search Engine"}
                 skills={["Web Crawling", "Distributed Storage", "PageRank", "Java", "Cloud Computing"]}>
                 <div>
@@ -133,9 +121,6 @@ export default function HomePage() {
                     </p>
                     <p class="my-2">
                     Implemented a fault-tolerant web crawler, distributed storage system, our own version of Spark, PageRank, and an intelligent frontend, complete with search suggestions and caching.
-                    </p>
-                    <p class="my-2">
-                    Done for CIS 5550: Internet & Web Systems. I can't post the link as per course policies, so I've linked to Google instead. Ours was nearly as good ;)
                     </p>
                 </div>
             </ProjectBar>
