@@ -4,36 +4,41 @@ import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
-        <body class="min-h-screen bg-white font-assistant w-11/12 sm:w-10/12 mx-auto">
-            <div className="">
-                <div class="pt-12 flex items-center">
+        <body class="min-h-screen bg-[#faefe3] font-assistant ">
+            <div className="w-11/12 sm:w-10/12 mx-auto">
+                <div class="pt-12 md:flex">
                     <img src="/Headshot.png" class="h-40 w-40 rounded-full" alt="Aalok Patwa"/>
-                </div>
-                
-                <div class="flex pt-6 mb-4 items-center justify-between">
-                    <h2 class="text-3xl text-black w-fit font-medium border-b-2 border-zinc-400">
-                        Aalok Patwa
-                    </h2>
-                    <div className="flex items-center ml-auto md:space-x-4">
+                    <div className="mt-4 md:mt-0 flex items-center ml-auto md:space-x-4">
                         <a href="https://www.linkedin.com/in/aalok-patwa" target="_blank" className="text-blue-600 font-medium hover:underline">
-                            <img src="linkedin.webp" alt="LinkedIn" className="h-10 w-10 inline-block mr-2"/>
+                            <img src="linkedin.webp" alt="LinkedIn" className="h-11 w-11 inline-block mr-2"/>
                         </a>
                         <a href="https://github.com/aalokpatwa" target="_blank" className="text-blue-600 font-medium hover:underline">
                             <img src="github.png" alt="Github" className="h-8 w-8 inline-block mr-2"/>
                         </a>
+                        <a href="https://x.com/apatwa7" target="_blank" className="text-blue-600 font-medium hover:underline">
+                            <img src="x.png" alt="X" className="h-12 w-12 inline-block mr-2"/>
+                        </a>
+                        
                         <a href="https://medium.com/@aalokpatwa" target="_blank" className="text-blue-600 font-medium hover:underline">
                             <img src="medium.png" alt="Medium" className="h-8 inline-block mr-2"/>
                         </a>
                         
                     </div>
                 </div>
+                
+                <div class="flex pt-6 mb-4 items-center justify-between">
+                    <h2 class="text-3xl text-black w-fit font-medium border-b-2 border-zinc-400">
+                        Aalok Patwa
+                    </h2>
+                    
+                </div>
     
                 <div class="rounded-lg">
                 <p className="font-normal text-md mb-4">
-                    Hi! I'm a student at the University of Pennsylvania, pursuing a dual degree in Computer Science from the Engineering school and Business from Wharton.
+                    Hi! I'm a student at the University of Pennsylvania, pursuing a joint MSE/BS in Computer Science from the Engineering school, and a BS in Business from Wharton.
                 </p>
                 <p className="font-normal text-md mb-4">
-                    I'm a builder at heart. I'm most passionate about the potential for AI and big data systems to amplify human effort and create prosperity.  
+                    I enjoy building useful technology. I'm most passionate about the potential for AI and big data systems to amplify human effort and create prosperity.  
                 </p>
                 <p className="font-normal text-md mb-4">
                     Most recently, I was a Product Management Intern at Databricks, building the <a href="https://www.databricks.com/blog/announcing-general-availability-databricks-assistant-and-ai-generated-comments" className="text-blue-600 font-medium hover:underline">Databricks Assistant</a>, a code-generation LLM to boost developers' productivity within Databricks.
@@ -47,7 +52,7 @@ export default function HomePage() {
                 </div>
                 
             </div>
-            <div class="mt-4">
+            <div class="mt-4 w-11/12 sm:w-10/12 mx-auto">
                 <div class="">
                     <h2 class="mt-8 pb-2 w-fit font-medium text-3xl text-black border-b-2 border-zinc-400">
                         Projects
@@ -62,7 +67,7 @@ export default function HomePage() {
                         Built new LLM-guided sequential retrieval techniques, yielding 10% improvement in generation performance.
                     </p>
                     <p class="my-1">
-                        Created a generalizable method of adapting OpenAI embeddins using a single matrix, improving retrieval hit rate by 5%.
+                        Created a generalizable method of adapting OpenAI embeddings using a single matrix, improving retrieval hit rate by 5%.
                     </p>
                 </div>
             </ProjectBar>
@@ -144,7 +149,7 @@ export default function HomePage() {
                 </div>
             </ProjectBar>
             </div>
-            <div class="pb-8">
+            <div class="pb-8 w-11/12 sm:w-10/12 mx-auto">
                 <div class="">
                     <h2 class="mt-8 pb-2 w-fit font-medium text-3xl text-black border-b-2 border-zinc-400">
                         Blogs
