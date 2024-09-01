@@ -6,23 +6,21 @@ export default function HomePage() {
     return (
         <body class="min-h-screen bg-[#faefe3] font-assistant ">
             <div className="w-11/12 sm:w-10/12 mx-auto">
-                <div class="pt-12 md:flex">
-                    <img src="/Headshot.png" class="h-40 w-40 rounded-full" alt="Aalok Patwa"/>
-                    <div className="mt-4 md:mt-0 flex items-center ml-auto md:space-x-4">
-                        <a href="https://www.linkedin.com/in/aalok-patwa" target="_blank" className="text-blue-600 font-medium hover:underline">
-                            <img src="linkedin.webp" alt="LinkedIn" className="h-11 w-11 inline-block mr-2"/>
+                <div class="flex flex-col items-center pt-12">
+                    <img src="/IMG_8199.jpg" class="h-52 rounded-lg" alt="Aalok Patwa"/>
+                    <div className="mt-4 md:mt-2 flex items-center justify-center space-x-2 md:space-x-4">
+                        <a href="https://www.linkedin.com/in/aalok-patwa" target="_blank" className="text-blue-600 hover:underline">
+                            <img src="linkedin.png" alt="LinkedIn" className="h-8 mx-2 inline-bloc rounded-md"/>
                         </a>
-                        <a href="https://github.com/aalokpatwa" target="_blank" className="text-blue-600 font-medium hover:underline">
-                            <img src="github.png" alt="Github" className="h-8 w-8 inline-block mr-2"/>
+                        <a href="https://github.com/aalokpatwa" target="_blank" className="text-blue-600 hover:underline">
+                            <img src="github.png" alt="Github" className="h-8 mx-1 inline-block"/>
                         </a>
-                        <a href="https://x.com/apatwa7" target="_blank" className="text-blue-600 font-medium hover:underline">
-                            <img src="x.png" alt="X" className="h-12 w-12 inline-block mr-2"/>
+                        <a href="https://x.com/apatwa7" target="_blank" className="text-blue-600 hover:underline">
+                            <img src="x.png" alt="X" className="h-12 inline-block"/>
                         </a>
-                        
-                        <a href="https://medium.com/@aalokpatwa" target="_blank" className="text-blue-600 font-medium hover:underline">
-                            <img src="medium.png" alt="Medium" className="h-8 inline-block mr-2"/>
+                        <a href="https://medium.com/@aalokpatwa" target="_blank" className="text-blue-600 hover:underline">
+                            <img src="medium.png" alt="Medium" className="h-10 inline-block"/>
                         </a>
-                        
                     </div>
                 </div>
                 
@@ -30,7 +28,6 @@ export default function HomePage() {
                     <h2 class="text-3xl text-black w-fit font-medium border-b-2 border-zinc-400">
                         Aalok Patwa
                     </h2>
-                    
                 </div>
     
                 <div class="rounded-lg">
