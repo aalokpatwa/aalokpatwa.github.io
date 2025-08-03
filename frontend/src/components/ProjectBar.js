@@ -2,26 +2,27 @@ import React from "react";
 
 export default function ProjectBar(props) {
     return (
-        <div class="mx-auto shadow-md rounded-xl w-9/12 bg-white mt-8">
-            <div class="justify-center text-center mx-auto w-9/12 my-4">
-                <p class="text-xl font-medium py-4">
-                    <a href={props.link} class="hover:text-blue-400">
+        <div class="mt-2">
+            <div class="justify-center">
+                <p class="w-fit text-xl font-semibold">
+                    <a href={props.link} className="text-blue-600 hover:text-blue-500 hover:underline">
                         {props.title}
                     </a>
+                    
                 </p>
-                {
+                {/* {
                     props.skills.map((skill) => (
-                        <div class="inline-block shadow-xl rounded w-auto bg-emerald-200 mx-2">
+                        <div class="inline-block rounded border border-black bg-emerald-200 m-2">
                             <p class="mx-3 font-light">
                                 {skill}
                             </p>
                         </div>
                             
                     ))
-                }
+                } */}
             </div>
-            <div class="mx-8">
-                <p class="pb-4 font-light">
+            <div class="">
+                <p class="pb-2 font-normal text-md">
                     {props.children}
                 </p>
             </div>

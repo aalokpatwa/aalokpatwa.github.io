@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         cmubright: ['cmubright', 'sans-serif'],
+        assistant: ["Assistant", "sans-serif"]
         // ...
       },
       backgroundImage:{
