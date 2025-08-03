@@ -6,6 +6,29 @@ export default function ProjectsPage() {
     const projectCategories = {
         "Machine Learning Research": [
             {
+                id: -1,
+                title: "Building LLM Reasoners and Agents for Financial Workflows using Synthetic Data and RL",
+                link: "https://github.com/aalokpatwa/finance-rl/blob/main/Report.pdf",
+                description: [
+                    "Developed a new synthetic data method for generating financial reasoning datasets (FinReason) and released to HuggingFace.",
+                    "Trained small LLMs on FinReason using GRPO and SFT.",
+                    "Built several LLM tools and agents for common financial workflows using ReAct and tool-calling approaches."
+                ],
+                skills: ["PyTorch", "GRPO", "LLM Agents"],
+                thumbnail: "/Figure1.drawio.png"
+            },
+            {
+                id: 0,
+                title: "DPO, DPOP, and SFT Post-training in Pure PyTorch",
+                link: "https://aalokpatwa.substack.com/p/dpo",
+                description: [
+                    "Implemented DPO, DPOP, and SFT post-training pipelines in pure PyTorch, and compared their efficacy on GPT-2.",
+                    "Identified optimization issues with DPO's objective function and rectified with DPOP."
+                ],
+                skills: ["PyTorch", "LLMs", "Post-training"],
+                thumbnail: "/DPO_2.png"
+            },
+            {
                 id: 1,
                 title: "Improving RAG for Multi-hop Question Answering using Guided Retrieval and Adaptation",
                 link: "https://github.com/aalokpatwa/rag-adaptation-paper/blob/main/Paper.pdf",
@@ -13,8 +36,8 @@ export default function ProjectsPage() {
                     "Built new LLM-guided sequential retrieval techniques, yielding 10% improvement in generation performance.",
                     "Created a generalizable method of adapting OpenAI embeddings using a single matrix, improving retrieval hit rate by 5%."
                 ],
-                skills: ["PyTorch", "Graph Neural Networks", "DLRM", "AWS"],
-                thumbnail: "/IMG_8199.jpg"
+                skills: ["PyTorch", "LLMs", "Evals"],
+                thumbnail: "/rag.png"
             },
             {
                 id: 2,
@@ -24,8 +47,8 @@ export default function ProjectsPage() {
                     "Implemented LightGCN, an extensible graph neural network architecture for collaborative filtering, and DLRM, a deep content-based architecture by Meta, from scratch in PyTorch.",
                     "Trained on the MovieLens-1M dataset using AWS, and evaluated both architectures on recommendation quality, latency, and scalability."
                 ],
-                skills: ["PyTorch", "Graph Neural Networks", "DLRM", "AWS"],
-                thumbnail: "/IMG_8199.jpg"
+                skills: ["PyTorch", "Graph Neural Networks", "Recommendation Systems"],
+                thumbnail: "/DLRM.png"
             },
             {
                 id: 3,
@@ -35,8 +58,8 @@ export default function ProjectsPage() {
                     "First-authored a paper in Nature Communications Biology for building a pipeline for early detection of triple-negative breast cancer, the most aggressive breast-cancer subtype.",
                     "Devised an algorithm to approximate cell-to-cell protein interactions and use features downstream in machine learning models."
                 ],
-                skills: ["Machine Learning", "Statistics", "Biomedical Imaging"],
-                thumbnail: "/IMG_8199.jpg"
+                skills: ["Machine Learning", "Algorithms", "Biomedical Imaging"],
+                thumbnail: "/mibi.png"
             },
             {
                 id: 5,
@@ -46,8 +69,8 @@ export default function ProjectsPage() {
                     "Modified a UNet encoder-decoder model in high school to segment colorectal cancer polyps from colonoscopy video at 17 FPS.",
                     "Presented at the TensorFlow World Conference. Check out the code!"
                 ],
-                skills: ["Deep Learning", "CNNs", "TensorFlow", "Segmentation", "Medical Imaging"],
-                thumbnail: "/IMG_8199.jpg"
+                skills: ["TensorFlow", "CNNs"],
+                thumbnail: "/polyp.png"
             }
         ],
         "Applications": [
@@ -59,7 +82,7 @@ export default function ProjectsPage() {
                     "Designed and implemented a hub for discovering, understanding, and discussing AI research using LLM-based search and QA."
                 ],
                 skills: ["LLMs", "Web Development", "Next.js", "Postgres"],
-                thumbnail: "/IMG_8199.jpg"
+                thumbnail: "/cambrian.png"
             },
             {
                 id: 6,
@@ -70,20 +93,7 @@ export default function ProjectsPage() {
                     "Reached 1,000 users in the first week of launch."
                 ],
                 skills: ["Python", "Algorithms", "Web Development"],
-                thumbnail: "/IMG_8199.jpg"
-            }
-        ],
-        "Systems": [
-            {
-                id: 7,
-                title: "The Empire Crawls Back: Distributed Search Engine",
-                link: "https://docs.google.com/document/d/1Ir7APyUH82HtkU088IIXcCKYERjnpfaO95exGUM9_lY/edit?usp=sharing",
-                description: [
-                    "Created an online search engine that serves queries on 200K crawled web pages in 900 ms on average.",
-                    "Implemented a fault-tolerant web crawler, distributed storage system, our own version of Spark, PageRank, and an intelligent frontend, complete with search suggestions and caching."
-                ],
-                skills: ["Web Crawling", "Distributed Storage", "PageRank", "Java", "Cloud Computing"],
-                thumbnail: "/IMG_8199.jpg"
+                thumbnail: "/pennsched.png"
             }
         ]
     };
@@ -94,60 +104,34 @@ export default function ProjectsPage() {
 
     return (
         <div className="min-h-screen bg-white font-assistant">
-            <div className="w-11/12 sm:w-10/12 mx-auto pt-8">
-                <h1 className="text-4xl font-medium text-black mb-8">Projects</h1>
+            <div className="mx-6 sm:max-w-2xl md:max-w-7xl sm:mx-auto mx-auto pt-8">
                 
                 {Object.entries(projectCategories).map(([category, projects]) => (
                     <div key={category} className="mb-12">
                         <h2 className="text-2xl font-medium text-black mb-6">{category}</h2>
                         
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-10 pt-6">
                             {projects.map((project) => (
-                                <div key={project.id} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                                <div key={project.id} className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-md flex flex-col">
                                     {/* Thumbnail (not clickable) */}
                                     <div className="block">
                                         <img 
                                             src={project.thumbnail} 
                                             alt={project.title}
-                                            className="w-full h-48 object-cover"
+                                            className="w-full h-36 object-cover opacity-60"
                                         />
                                     </div>
                                     
                                     {/* Project title and description */}
-                                    <div className="p-4">
-                                        <h3 className="text-lg font-semibold text-black mb-2 line-clamp-2">
-                                            <a 
-                                                href={project.link} 
-                                                target="_blank" 
-                                                rel="noopener noreferrer"
-                                                className="hover:underline transition-all"
-                                            >
-                                                {project.title}
-                                            </a>
+                                    <div className="p-4 flex flex-col flex-1">
+                                                                        <h3 className="text-xl font-semibold text-black mb-2">
+                                            {project.title}
                                         </h3>
                                         
-                                        {/* Collapsible description */}
-                                        <div className="space-y-2">
-                                            <button
-                                                onClick={() => toggleExpanded(project.id)}
-                                                className="text-green-600 hover:text-green-700 text-sm font-medium transition-colors"
-                                            >
-                                                {expandedProject === project.id ? "Show less" : "Read more"}
-                                            </button>
-                                            
-                                            {expandedProject === project.id && (
-                                                <div className="space-y-2 text-gray-700 text-sm">
-                                                    {project.description.map((desc, index) => (
-                                                        <p key={index} className="leading-relaxed">
-                                                            {desc}
-                                                        </p>
-                                                    ))}
-                                                </div>
-                                            )}
-                                        </div>
+                                        
                                         
                                         {/* Skills tags */}
-                                        <div className="mt-3 flex flex-wrap gap-1">
+                                        <div className="flex flex-wrap gap-1 mb-3">
                                             {project.skills.map((skill, index) => (
                                                 <span 
                                                     key={index}
@@ -157,6 +141,45 @@ export default function ProjectsPage() {
                                                 </span>
                                             ))}
                                         </div>
+                                        
+                                        {/* Icons at bottom */}
+                                        <div className="flex items-center space-x-4 mt-auto">
+                                            <button
+                                                onClick={() => toggleExpanded(project.id)}
+                                                className="text-gray-600 hover:text-gray-800 transition-colors"
+                                            >
+                                                {expandedProject === project.id ? (
+                                                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fillRule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clipRule="evenodd" />
+                                                    </svg>
+                                                ) : (
+                                                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                                    </svg>
+                                                )}
+                                            </button>
+                                            <a 
+                                                href={project.link} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                                className="text-green-600 hover:text-green-700 transition-colors"
+                                            >
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                                </svg>
+
+                                            </a>
+                                        </div>
+                                        {/* Collapsible description */}
+                                        {expandedProject === project.id && (
+                                            <div className="space-y-2 text-gray-700 text-sm mt-2">
+                                                {project.description.map((desc, index) => (
+                                                    <p key={index} className="leading-relaxed">
+                                                        {desc}
+                                                    </p>
+                                                ))}
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             ))}
