@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Workflow for deploying a React app from a 'frontend' subdirectory
 name: Deploy static content to Pages
 
 on:
@@ -15,8 +15,7 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -31,21 +30,27 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18 # Or your preferred Node.js version
+          node-version: 18
           cache: 'npm'
+          # Point the cache to the correct package-lock.json
+          cache-dependency-path: frontend/package-lock.json
       - name: Install dependencies
-        run: npm ci # 'ci' is generally faster and safer for CI environments
+        # 👇 CHANGE: Execute commands in the 'frontend' folder
+        working-directory: ./frontend
+        run: npm ci
       - name: Build
+        # 👇 CHANGE: Execute commands in the 'frontend' folder
+        working-directory: ./frontend
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the build folder
-          path: './build' # Change to 'dist' if you are using Vite
+          # 👇 CHANGE: Path to the build output is now inside 'frontend'
+          path: './frontend/build' # Or './frontend/dist' if using Vite
 
-  # Deployment job
+  # Deployment job (This job does not need any changes)
   deploy:
     environment:
       name: github-pages
