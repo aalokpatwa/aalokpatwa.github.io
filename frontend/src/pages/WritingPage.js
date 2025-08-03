@@ -40,14 +40,14 @@ export default function WritingPage() {
 
     return (
         <div className="min-h-screen bg-white font-assistant">
-            <div className="mx-6 lg:max-w-7xl lg:mx-auto pt-8">
+            <div className="mx-6 lg:max-w-7xl lg:mx-auto pt-4 md:pt-8">
                 {Object.entries(blogCategories).map(([category, blogs]) => (
                     <div key={category} className="mb-12">
                         <h2 className="text-2xl font-medium text-black mb-6">{category}</h2>
                         
-                        <div className="space-y-6">
+                        <div className="space-y-4 md:space-y-4">
                             {blogs.map((blog) => (
-                                <div key={blog.id} className="border-b border-gray-200 pb-6">
+                                <div key={blog.id} className="border-b border-gray-200 pb-2 md:pb-4">
                                     <h3 className="text-xl font-semibold text-black mb-2">
                                         <a 
                                             href={blog.link} 

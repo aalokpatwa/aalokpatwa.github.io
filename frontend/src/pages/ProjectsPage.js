@@ -104,13 +104,13 @@ export default function ProjectsPage() {
 
     return (
         <div className="min-h-screen bg-white font-assistant">
-            <div className="mx-6 sm:max-w-2xl md:max-w-7xl sm:mx-auto mx-auto pt-8">
+            <div className="mx-6 lg:max-w-7xl lg:mx-auto pt-4 md:pt-8">
                 
                 {Object.entries(projectCategories).map(([category, projects]) => (
                     <div key={category} className="mb-12">
                         <h2 className="text-2xl font-medium text-black mb-6">{category}</h2>
                         
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-10 pt-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-10 pt-6">
                             {projects.map((project) => (
                                 <div key={project.id} className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-md flex flex-col">
                                     {/* Thumbnail (not clickable) */}
@@ -124,8 +124,15 @@ export default function ProjectsPage() {
                                     
                                     {/* Project title and description */}
                                     <div className="p-4 flex flex-col flex-1">
-                                                                        <h3 className="text-xl font-semibold text-black mb-2">
-                                            {project.title}
+                                                                        <h3 className="text-lg md:text-xl font-semibold text-black mb-2">
+                                            <a 
+                                                href={project.link} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                                className="hover:text-green-600 transition-all"
+                                            >
+                                                {project.title}
+                                            </a>
                                         </h3>
                                         
                                         
@@ -142,8 +149,8 @@ export default function ProjectsPage() {
                                             ))}
                                         </div>
                                         
-                                        {/* Icons at bottom */}
-                                        <div className="flex items-center space-x-4 mt-auto">
+                                        {/* Chevron icon at bottom */}
+                                        <div className="flex items-center mt-auto">
                                             <button
                                                 onClick={() => toggleExpanded(project.id)}
                                                 className="text-gray-600 hover:text-gray-800 transition-colors"
@@ -158,17 +165,6 @@ export default function ProjectsPage() {
                                                     </svg>
                                                 )}
                                             </button>
-                                            <a 
-                                                href={project.link} 
-                                                target="_blank" 
-                                                rel="noopener noreferrer"
-                                                className="text-green-600 hover:text-green-700 transition-colors"
-                                            >
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                                                </svg>
-
-                                            </a>
                                         </div>
                                         {/* Collapsible description */}
                                         {expandedProject === project.id && (
