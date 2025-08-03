@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer"
-import ProjectBar from "../components/ProjectBar"
 
 export default function HomePage() {
     return (
