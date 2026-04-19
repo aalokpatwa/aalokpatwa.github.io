@@ -22,19 +22,16 @@ export default function HomePage() {
                     {/* Mobile: Bio content */}
                     <div className="md:hidden space-y-4 text-gray-800">
                         <p className="text-md leading-relaxed">
-                            I like building <span className="font-semibold">AI models and systems that massively improve the human experience</span>.
+                            I work on the <span className="font-semibold">Search team at OpenAI</span>, where I work to make models more factual by grounding them in <span className="font-semibold">up-to-date knowledge</span>.
                         </p>
                         <p className="text-md leading-relaxed">
-                            I graduated from the University of Pennsylvania in 2025 with <span className="font-semibold">three degrees</span>: a joint MSE/BS in Computer Science from the Engineering school, and a BS in Business from Wharton.
+                            More broadly, I am interested in building <span className="font-semibold">AI models and systems that unlock value and feel magical in the real world</span>.
                         </p>
                         <p className="text-md leading-relaxed">
-                            I conducted research at Penn's <span className="font-semibold">TrustML Group</span> with Professor Osbert Bastani focusing on how to achieve <span className="font-semibold">user-level personalization with reinforcement learning</span>. I was a Teaching Assistant for <span className="font-semibold">Principles of Deep Learning</span> and <span className="font-semibold">Applied Machine Learning</span>, two graduate courses.
-                            I helped lead <span className="font-semibold">Machine Learning Research @ Penn</span>, the first community for student-driven research at the university.
+                            Previously, I interned at <span className="font-semibold">Databricks</span>, where I worked on the <a href="https://www.databricks.com/blog/announcing-general-availability-databricks-assistant-and-ai-generated-comments" className="text-green-600 font-medium hover:underline">Databricks Assistant</a>, an LLM copilot for data science. I also conducted research at Penn's <span className="font-semibold">TrustML Group</span> with Professor Osbert Bastani on <span className="font-semibold">user-level personalization with reinforcement learning</span>.
                         </p>
-                        
                         <p className="text-md leading-relaxed">
-                            Most recently, I interned at <span className="font-semibold">Databricks</span>, building the <a href="https://www.databricks.com/blog/announcing-general-availability-databricks-assistant-and-ai-generated-comments" className="text-green-600 font-medium hover:underline">Databricks Assistant</a>, an LLM copilot for data science.
-                            Previously, I was a machine learning researcher at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-green-600 font-medium hover:underline">Rubin Lab</a>, where I <span className="font-semibold">first-authored in Nature</span> and became a <a href="https://www.societyforscience.org/regeneron-sts/2021-scholars/" className="text-green-600 font-medium hover:underline">Regeneron STS Scholar</a>.
+                            Earlier, I was a machine learning researcher at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-green-600 font-medium hover:underline">Rubin Lab</a>, where I <span className="font-semibold">first-authored a paper in Nature</span> and became a <a href="https://www.societyforscience.org/regeneron-sts/2021-scholars/" className="text-green-600 font-medium hover:underline">Regeneron STS Scholar</a>. I graduated from the University of Pennsylvania in 2025 with a joint MSE/BS in Computer Science and a BS in Business from Wharton, and helped lead <span className="font-semibold">Machine Learning Research @ Penn</span>.
                         </p>
                     </div>
                     
@@ -46,19 +43,16 @@ export default function HomePage() {
                         
                         <div className="space-y-4 text-gray-800 mt-8">
                             <p className="text-lg leading-relaxed">
-                                I like building <span className="font-semibold">AI models and systems that massively improve the human experience</span>.
+                                I work on the <span className="font-semibold">Search team at OpenAI</span>, where I work to make models more factual by grounding them in <span className="font-semibold">up-to-date knowledge</span>.
                             </p>
                             <p className="text-lg leading-relaxed">
-                                I graduated from the University of Pennsylvania in 2025 with <span className="font-semibold">three degrees</span>: a joint MSE/BS in Computer Science from the Engineering school, and a BS in Business from Wharton.
+                                More broadly, I am interested in building <span className="font-semibold">AI models and systems that unlock value and feel magical in the real world</span>.
                             </p>
                             <p className="text-lg leading-relaxed">
-                                I conducted research at Penn's <span className="font-semibold">TrustML Group</span> with Professor Osbert Bastani focusing on how to achieve <span className="font-semibold">user-level personalization with reinforcement learning</span>. I was a Teaching Assistant for <span className="font-semibold">Principles of Deep Learning</span> and <span className="font-semibold">Applied Machine Learning</span>, two graduate courses.
-                                I helped lead <span className="font-semibold">Machine Learning Research @ Penn</span>, the first community for student-driven research at the university.
+                                Previously, I interned at <span className="font-semibold">Databricks</span>, where I worked on the <a href="https://www.databricks.com/blog/announcing-general-availability-databricks-assistant-and-ai-generated-comments" className="text-green-600 font-medium hover:underline">Databricks Assistant</a>, an LLM copilot for data science. I also conducted research at Penn's <span className="font-semibold">TrustML Group</span> with Professor Osbert Bastani on <span className="font-semibold">user-level personalization with reinforcement learning</span>.
                             </p>
-                            
                             <p className="text-lg leading-relaxed">
-                                Most recently, I interned at <span className="font-semibold">Databricks</span>, building the <a href="https://www.databricks.com/blog/announcing-general-availability-databricks-assistant-and-ai-generated-comments" className="text-green-600 font-medium hover:underline">Databricks Assistant</a>, an LLM copilot for data science.
-                                Previously, I was a machine learning researcher at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-green-600 font-medium hover:underline">Rubin Lab</a>, where I <span className="font-semibold">first-authored in Nature</span> and became a <a href="https://www.societyforscience.org/regeneron-sts/2021-scholars/" className="text-green-600 font-medium hover:underline">Regeneron STS Scholar</a>.
+                                Earlier, I was a machine learning researcher at Stanford's <a href="https://rubinlab.stanford.edu/" className="text-green-600 font-medium hover:underline">Rubin Lab</a>, where I <span className="font-semibold">first-authored a paper in Nature</span> and became a <a href="https://www.societyforscience.org/regeneron-sts/2021-scholars/" className="text-green-600 font-medium hover:underline">Regeneron STS Scholar</a>. I graduated from the University of Pennsylvania in 2025 with a joint MSE/BS in Computer Science and a BS in Business from Wharton, and helped lead <span className="font-semibold">Machine Learning Research @ Penn</span>.
                             </p>
                         </div>
                     </div>
