@@ -22,7 +22,7 @@ export default function HomePage() {
                     {/* Mobile: Bio content */}
                     <div className="md:hidden space-y-4 text-gray-800">
                         <p className="text-md leading-relaxed">
-                            I work on the <span className="font-semibold">Search team at OpenAI</span>, where I work to make models more factual by grounding them in <span className="font-semibold">up-to-date knowledge</span>.
+                            I'm a <span className="font-semibold">Member of Technical Staff at OpenAI</span>, where I work to make models more useful and factual by grounding them in <span className="font-semibold">relevant, up-to-date knowledge</span>.
                         </p>
                         <p className="text-md leading-relaxed">
                             More broadly, I am interested in building <span className="font-semibold">AI models and systems that unlock value and feel magical in the real world</span>.
@@ -43,7 +43,7 @@ export default function HomePage() {
                         
                         <div className="space-y-4 text-gray-800 mt-8">
                             <p className="text-lg leading-relaxed">
-                                I work on the <span className="font-semibold">Search team at OpenAI</span>, where I work to make models more factual by grounding them in <span className="font-semibold">up-to-date knowledge</span>.
+                                I'm a <span className="font-semibold">Member of Technical Staff at OpenAI</span>, where I work to make models more useful and factual by grounding them in <span className="font-semibold">relevant, up-to-date knowledge</span>.
                             </p>
                             <p className="text-lg leading-relaxed">
                                 More broadly, I am interested in building <span className="font-semibold">AI models and systems that unlock value and feel magical in the real world</span>.
