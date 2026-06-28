@@ -25,7 +25,7 @@ export default function HomePage() {
                             I'm a <span className="font-semibold">Member of Technical Staff at OpenAI</span>, where I work to make models more useful and factual by grounding them in <span className="font-semibold">relevant, up-to-date knowledge</span>.
                         </p>
                         <p className="text-md leading-relaxed">
-                            More broadly, I am interested in building <span className="font-semibold">AI models and systems that unlock value and feel magical in the real world</span>.
+                            More broadly, I'm interested in advancing <span className="font-semibold">frontier AI capabilities</span> and making these systems useful in <span className="font-semibold">high-stakes real-world applications</span>.
                         </p>
                         <p className="text-md leading-relaxed">
                             Previously, I interned at <span className="font-semibold">Databricks</span>, where I worked on the <a href="https://www.databricks.com/blog/announcing-general-availability-databricks-assistant-and-ai-generated-comments" className="text-green-600 font-medium hover:underline">Databricks Assistant</a>, an LLM copilot for data science. I also conducted research at Penn's <span className="font-semibold">TrustML Group</span> with Professor Osbert Bastani on <span className="font-semibold">user-level personalization with reinforcement learning</span>.
@@ -46,7 +46,7 @@ export default function HomePage() {
                                 I'm a <span className="font-semibold">Member of Technical Staff at OpenAI</span>, where I work to make models more useful and factual by grounding them in <span className="font-semibold">relevant, up-to-date knowledge</span>.
                             </p>
                             <p className="text-lg leading-relaxed">
-                                More broadly, I am interested in building <span className="font-semibold">AI models and systems that unlock value and feel magical in the real world</span>.
+                                More broadly, I'm interested in advancing <span className="font-semibold">frontier AI capabilities</span> and making these systems useful in <span className="font-semibold">high-stakes real-world applications</span>.
                             </p>
                             <p className="text-lg leading-relaxed">
                                 Previously, I interned at <span className="font-semibold">Databricks</span>, where I worked on the <a href="https://www.databricks.com/blog/announcing-general-availability-databricks-assistant-and-ai-generated-comments" className="text-green-600 font-medium hover:underline">Databricks Assistant</a>, an LLM copilot for data science. I also conducted research at Penn's <span className="font-semibold">TrustML Group</span> with Professor Osbert Bastani on <span className="font-semibold">user-level personalization with reinforcement learning</span>.
